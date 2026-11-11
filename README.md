@@ -1,6 +1,6 @@
 # PCR 会战 UB 优化
 
-[![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue)](LICENSE)
+[![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue)](LICENSE)
 
 基于遗传算法（GA）的《公主连结》（Princess Connect Re:Dive）公会战UB序列外置优化工具。
 
@@ -96,8 +96,17 @@ uv run --locked python -m compileall -q src
 uv build
 ```
 
+## 如何参与贡献
+
+欢迎反馈问题、改进算法或完善文档。
+
+- 提交 Issue 时，请附上运行环境、复现步骤、相关配置和报错信息。
+- 修改代码或文档后，可以通过 Pull Request 提交，并说明改动目的。
+- 算法改动请提供可复现的 Excel、配置和固定种子，以及修改前后的结果对比。
+- 提交前运行上面的验证命令，在 Pull Request 中写明验证结果。每个改动尽量聚焦一件事。
+
 ## 许可证
 
 Copyright (C) 2026 Lanly109.
 
-本项目采用 `AGPL-3.0-only`，详见 [LICENSE](LICENSE)。
+本项目采用 AGPLv3 协议，详见 [LICENSE](LICENSE)。
