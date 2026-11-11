@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcr-ub-ga"
+version = "0.1.0"
+description = "Standalone clan battle UB timeline optimizer"
+readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["httpx>=0.28,<0.29", "openpyxl>=3.1.5,<3.2"]
+
+[project.scripts]
+pcr-ub-ga = "pcr_ub_ga.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
